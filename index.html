@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<htm1>
+<head>
+  <meta charset='UTF-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+ <body>
+<body>
+<div class="nav-menu vh-100 position-fixed d-flex top-0" style="left: -257px;">
+  <div class="nav-button d-flex flex-column justify-content-between p-4">
+      <div class="links">
+          <ul>
+              <li onclick="getSearchInputs(); closeNav()" class="py-2 position-relative cursor-pointer">Search</li>
+              <li onclick="getCategories(); closeNav()" class="py-2 position-relative cursor-pointer">Categories</li>
+              <li onclick="getArea(); closeNav()" class="py-2 position-relative cursor-pointer">Area</li>
+              <li onclick="getIngredients(); closeNav()" class="py-2 position-relative cursor-pointer">Ingredients</li>
+              <li onclick="getContacts(); closeNav()" class="py-2 position-relative cursor-pointer" >Contact Us</li>
+          </ul>
+      </div>
+      <div class="nav-end">
+          <div class="icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="text">
+              <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+          </div>
+      </div>
+  </div>
+  <div class="nav-components  py-4 px-2 bg-white text-black text-center d-flex flex-column justify-content-between ">
+      <img class="logo" src="img/logo.png" alt="" >
+      <i class="fa-solid open-close-nav fa-2x fa-align-justify"></i>
+      <div>
+          <i class="fa-solid fa-globe d-block"></i>
+          <i class="fa-solid fa-share-nodes"></i>
+      </div>
+  </div>
+</div>
+    <div class="container w-75" id="viewInformation">
+    </div>
+    <div class="container">
+      <div class="row py-5 g-4 " id="rowData">
+    </div>
+ </div>
+</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
+ </body>
+</html>
